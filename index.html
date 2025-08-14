@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JsonTest</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+
+    <h1 class="text-3xl text-indigo-400 font-bold mb-6 text-center">My Cards</h1>
+    <div id="output" class="columns-2 sm:columns-3 md:columns-4 lg:columns-5 gap-6"></div>
+
+    <script>
+        fetch('data.json')
+            .then(response => response.json())
+            .then(data => {
+                const output = document.getElementById('output');
+                output.innerHTML = data.map(item => `
+                    <div class="mb-4 break-inside-avoid rounded-lg overflow-hidden shadow-lg">
+                        <img src="${item.poster}" alt="${item.title}" class="w-full">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">${item.title}</h2>
+                        </div>
+                    </div>
+                `).join('');
+            })
+            .catch(error => console.error('Error loading JSON:', error));
+    </script>
+
+</body>
+</html>
