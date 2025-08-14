@@ -98,5 +98,30 @@
         "id": 20,
         "title": "Luffy Wallpaper",
         "poster": "image/test.png"
+    },
+    {
+        "id": 21,
+        "title": "Scissor 7",
+        "poster": "https://i.pinimg.com/1200x/98/30/e7/9830e7813e778feb6902a89a63dc8d78.jpg" 
+    },
+    {
+        "id": 22,
+        "title": "Naruto",
+        "poster": "https://i.pinimg.com/1200x/30/2c/ca/302ccadfcfb95dd4c0c4bfacceff5c8b.jpg"
+    },
+    {
+        "id": 23,
+        "title": "Ichigo",
+        "poster": "https://i.pinimg.com/1200x/f5/57/5e/f5575ed28ba245e535a699b961c626da.jpg"
+    },
+    {
+        "id": 24,
+        "title": "One Punch Man",
+        "poster": "https://i.pinimg.com/1200x/f5/6b/ea/f56bea09d58d82db247e1fd8f808f702.jpg"
+    },
+    {
+        "id": 25,
+        "title": "Dragon Ball",
+        "poster": "https://i.pinimg.com/1200x/6f/22/a4/6f22a46bd0e05eed5fd3114a4697fbd0.jpg"
     }
 ]
