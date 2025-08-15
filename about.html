@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JsonTest</title>
+    <title>JsonTest | About</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
 </head>
@@ -11,6 +11,7 @@
 
     <header class="px-10 py-6 mb-10 bg-white shadow-sm border-b border-gray-200">
         <div class="flex items-center justify-between max-w-6xl mx-auto">
+            
             <a href="/">
                 <h1 class="text-2xl font-bold text-gray-800 relative pl-4 before:content-[''] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-1 before:h-6 before:bg-rose-500 before:rounded-full">
                     My JSON Test Data
@@ -23,29 +24,11 @@
             </a>
         </div>
     </header>
-
-
-    <div id="output" class="columns-2 sm:columns-3 md:columns-4 lg:columns-5 gap-6 px-6"></div>
-
-    <script>
-        fetch('data.json')
-            .then(response => response.json())
-            .then(data => {
-                const output = document.getElementById('output');
-                output.innerHTML = data.map(item => `
-                    <div class="mb-6 break-inside-avoid rounded-xl overflow-hidden shadow-lg bg-white hover:shadow-2xl transition duration-300 hover:scale-105 transition-transform duration-300 cursor-pointer">
-                        <div class="overflow-hidden">
-                            <img src="${item.poster}" alt="${item.title}" 
-                                 class="w-full">
-                        </div>
-                        <div class="p-4">
-                            <h2 class="text-lg font-semibold text-gray-800 truncate">${item.title}</h2>
-                        </div>
-                    </div>
-                `).join('');
-            })
-            .catch(error => console.error('Error loading JSON:', error));
-    </script>
+    
+    <div class="p-10 bg-emerald-200 rounded-lg shadow-lg">
+        <h2 class="mb-5 text-emerald-700">This website was built for testing purposes only.</h2>
+        <a href="https://github.com/CodeCraftAyan" class="px-4 py-2 rounded bg-gray-700 text-white hover:bg-gray-500">View Github</a>
+    </div>
 
 </body>
 </html>
