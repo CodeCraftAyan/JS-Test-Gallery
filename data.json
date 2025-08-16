@@ -123,5 +123,55 @@
         "id": 25,
         "title": "Dragon Ball",
         "poster": "https://i.pinimg.com/1200x/6f/22/a4/6f22a46bd0e05eed5fd3114a4697fbd0.jpg"
+    },
+    {
+        "id": 26,
+        "title": "Attack On Titan",
+        "poster": "https://i.pinimg.com/1200x/4c/bd/d1/4cbdd116dba9efe10c6d99b9cce128ad.jpg"
+    },
+    {
+        "id": 27,
+        "title": "Chainshow Man",
+        "poster": "https://i.pinimg.com/1200x/b3/d6/96/b3d696031272461f259c361f5b272f16.jpg"
+    },
+    {
+        "id": 28,
+        "title": "Dandadan",
+        "poster": "https://i.pinimg.com/1200x/62/f1/7f/62f17f6f271d71740c6ba6beea5794b4.jpg"
+    },
+    {
+        "id": 29,
+        "title": "Jujutsu Kaisen",
+        "poster": "https://i.pinimg.com/1200x/ee/1c/59/ee1c59a1fcde3e025e0ec5d41b33a9a6.jpg"
+    },
+    {
+        "id": 30,
+        "title": "Death Note",
+        "poster": "https://i.pinimg.com/1200x/80/74/be/8074be6bf2be333281a05f32e5809bb9.jpg"
+    },
+    {
+        "id": 31,
+        "title": "Demon Slayer",
+        "poster": "https://i.pinimg.com/1200x/59/5b/11/595b1128cdb1608fc3cf629ce3dc22d5.jpg"
+    },
+    {
+        "id": 32,
+        "title": "Cross Guild",
+        "poster": "https://i.pinimg.com/1200x/d1/9f/ab/d19fab1c163003a5c1278a9c1ef342a3.jpg"
+    },
+    {
+        "id": 33,
+        "title": "Oden",
+        "poster": "https://i.pinimg.com/1200x/a4/f5/bc/a4f5bc9d5431be0beedd2e9944b95727.jpg"
+    },
+    {
+        "id": 44,
+        "title": "Luffy v/s Kaido",
+        "poster": "https://i.pinimg.com/1200x/05/a1/e2/05a1e28e4dc5676ba960e61b503b0e93.jpg"
+    },
+    {
+        "id": 45,
+        "title": "Nika",
+        "poster": "https://i.pinimg.com/1200x/e4/cd/19/e4cd19b1b1837ee935d548581768cd27.jpg"
     }
 ]
